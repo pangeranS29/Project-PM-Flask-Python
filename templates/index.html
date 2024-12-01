@@ -44,11 +44,12 @@
                   </li>
                   
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase fw-medium" aria-current="page" href="#features">Klasifikasi</a>
+                    <a class="nav-link text-uppercase fw-medium" aria-current="page" href="{{ url_for('klasifikasi') }}">Klasifikasi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-uppercase fw-medium" aria-current="page" href="#about">Tentang</a>
-                  </li>
+                    <a class="nav-link text-uppercase fw-medium" aria-current="page" href="{{ url_for('about') }}">Tentang</a>
+                </li>
+                
                  
                 </ul>                    
               </div>
@@ -98,92 +99,67 @@
             </div>
         </section>
 
-        <section id="about" class="section-padding">
-            <div class="container">
-               <div class="row align-items-center">
-                  <div class="col">
-                      <div >
-                         <img src="images/product-1.png" class="img-fluid"> 
-                      </div>
-                  </div>
-                  <div class="col text-start">
-                    <div>
-                        <h2 class="mb-4">
-                            Transform your life and embrace a healthier future
-                        </h2>
-                        <p>
-                          Pretium turpis faucibus adipiscing duis. Id quis tristique mi vitae nec. In et in praesent pellentesque orta sit porta ridiculus.
-                        </p>
-                        <p>
-                          Gravida scelerisque lacus amet a est magna. Mauris adipiscing non gravida pretium mi neque orci pulvinar. In imperdiet gravida quisque in in integer et. Urna porta rhoncus enim est in. Orci viverra erat ac blandit.
-                        </p>
-                    </div> 
-                  </div>
+        <section id="product" class="section-padding">
+          <div class="text-center">
+            <h2>
+                Produk
+            </h2>
+          </div>
+          <div class="container mt-5">
+            <div class="row">
+             <div class="col-md-4 mb-4">
+              <div class="card">
+               <img alt="Red Devil fish in an aquarium" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/k5hmDsyJ5OKwDRTvEoncZhJwXhNfpACPdQR3BWStTn5gkO7JA.jpg" width="300"/>
+               <div class="card-body text-center">
+                <h5 class="card-title">
+                 Apa itu Ikan Red Devil?
+                </h5>
+                <p class="card-text">
+                 lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum dolor sit amet consectetur adipiscing
+                </p>
+                <a class="btn btn-outline-primary" href="#">
+                 Lihat selengkapnya
+                </a>
                </div>
+              </div>
+             </div>
+             <div class="col-md-4 mb-4">
+              <div class="card">
+               <img alt="Mujahir fish being held by a hand" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/fknCR8dayG0dcyfeEqKGv4qe1K3NwPJ7eaAc5ryMC6eHQSn9E.jpg" width="300"/>
+               <div class="card-body text-center">
+                <h5 class="card-title">
+                 Apa itu Ikan Mujahir?
+                </h5>
+                <p class="card-text">
+                 lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum dolor sit amet consectetur adipiscing
+                </p>
+                <a class="btn btn-outline-primary" href="#">
+                 Lihat selengkapnya
+                </a>
+               </div>
+              </div>
+             </div>
+             <div class="col-md-4 mb-4">
+              <div class="card">
+               <img alt="Sepat fish in an aquarium" class="card-img-top" height="200" src="https://storage.googleapis.com/a1aa/image/AmiK1AlnIQ6UNlABLq2Vs61nZDoTB36UfvnDWtCMOu0fId2TA.jpg" width="300"/>
+               <div class="card-body text-center">
+                <h5 class="card-title">
+                 Apa itu Ikan Sepat?
+                </h5>
+                <p class="card-text">
+                 lorem ipsum dolor sit amet consectetur adipiscing lorem ipsum dolor sit amet consectetur adipiscing
+                </p>
+                <a class="btn btn-outline-primary" href="#">
+                 Lihat selengkapnya
+                </a>
+               </div>
+              </div>
+             </div>
             </div>
-        </section>
+           </div>
+      </section>
 
-        <section id="features" class="bg-body-secondary py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                      <h2 class="mb-4">
-                        Benefits of Our Natural Weight Loss Product
-                      </h2>
-                      <p>
-                          Mauris adipiscing non gravida pretium mi neque orci pulvinar. In imperdiet gravida quisque in in integer et urna porta rhoncus enim est in. 
-                      </p>
-                      <ul class="ps-0">
-                        <li class="d-flex align-items-center icon mt-2">
-                            <svg class="circle" width="22" height="22">
-                                <use xlink:href="#circle"></use>
-                            </svg>
-                            <p class="px-2 mb-0 fw-medium">
-                              Our weight loss product is formulated with natural ingredients.
-                            </p>
-                        </li>
-                        <li class="d-flex align-items-center icon mt-2">
-                            <svg class="circle" width="22" height="22">
-                                <use xlink:href="#circle"></use>
-                            </svg>
-                            <p class="px-2 mb-0 fw-medium">
-                              Our product can help curb your cravings and reduce the urge to overeat.
-                            </p>
-                        </li>
-                        <li class="d-flex align-items-center icon mt-2">
-                            <svg class="circle" width="22" height="22">
-                                <use xlink:href="#circle"></use>
-                            </svg>
-                            <p class="px-2 mb-0 fw-medium">
-                              Many users experience increased energy and vitality while taking.
-                            </p>
-                        </li>
-                        <li class="d-flex align-items-center icon mt-2">
-                            <svg class="circle" width="22" height="22">
-                                <use xlink:href="#circle"></use>
-                            </svg>
-                            <p class="px-2 mb-0 fw-medium">
-                              Some ingredients support better digestion, helping your body absorb.
-                            </p>
-                        </li>
-                        <li class="d-flex align-items-center icon mt-2">
-                            <svg class="circle" width="22" height="22">
-                                <use xlink:href="#circle"></use>
-                            </svg>
-                            <p class="px-2 mb-0 fw-medium">
-                              Our product can assist in maintaining stable blood sugar levels.
-                            </p>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="images/product-2.png" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="why-choose-us" class="section-padding">
+        <section id="why-choose-us" class="section-padding ">
             <div class="container mt-5">
                 <div class="text-center">
                   <h2>
@@ -249,47 +225,7 @@
             </div>
         </section>
 
-        <section id="product" class="section-padding pt-0">
-            <div class="container text-center">
-                <div class="mb-5">
-                    <h2>
-                        Weight loss Product Pricing
-                    </h2>
-                    <p>
-                        14 day Money back guaranteed
-                    </p>
-                </div>
-                <div class="row g-4">
-                    <div class="col-md-4">
-                       <img src="images/product-3.png" class="img-fluid">
-                       <h2 class="text-primary mt-4">
-                        $39.00
-                       </h2> 
-                       <button type="button" class="btn btn-primary btn-lg mt-3 btn-color">
-                        Order Now
-                       </button> 
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/product-4.png" class="img-fluid">
-                       <h2 class="text-primary mt-4">
-                        $66.00
-                       </h2> 
-                       <button type="button" class="btn btn-primary btn-lg mt-3 btn-color">
-                        Order Now
-                       </button> 
-                    </div>
-                    <div class="col-md-4">
-                        <img src="images/product-4.png" class="img-fluid">
-                       <h2 class="text-primary mt-4">
-                        $90.00
-                       </h2> 
-                       <button type="button" class="btn btn-primary btn-lg mt-3 btn-color">
-                        Order Now
-                       </button> 
-                    </div>
-                </div>                
-            </div>
-        </section>
+       
 
         <section id="reviews" class="bg-body-secondary section-padding">
             <div class="container">

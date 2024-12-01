@@ -222,3 +222,15 @@ h6 {
 .site-header.sticky{
    background-color: var(--bs-light);
 }
+
+
+.card img {
+   border-radius: 15px 15px 0 0;
+}
+.card {
+   border-radius: 15px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.btn-outline-primary {
+   border-radius: 25px;
+}
