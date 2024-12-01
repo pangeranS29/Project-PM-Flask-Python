@@ -65,13 +65,13 @@
     background-color: white; /* Latar belakang tombol menjadi putih */
     color: black; /* Warna teks tombol menjadi hitam */
     border: 2px solid #01579b; /* Warna border tombol */
-    border-radius: 5px; /* Sudut tombol yang membulat */
+    border-radius: 20px; /* Sudut tombol yang membulat */
     padding: 10px 20px; /* Padding untuk tombol */
     font-size: 16px; /* Ukuran font */
     cursor: pointer; /* Kursor menjadi pointer saat hover */
     transition: background-color 0.3s, color 0.3s; /* Efek transisi */
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 200px;
 }
 
 .btn-white:hover {
@@ -87,6 +87,34 @@
 .klasifikasi{
     color: white;
     margin-bottom: 20px;
+}
+
+
+.logo-container {
+   display: flex;
+   align-items: center;
+   text-align: left;
+}
+.logo-container img {
+   max-width: 100%;
+   height: auto;
+   margin-right: 20px;
+}
+.text-container {
+   display: flex;
+   flex-direction: column;
+}
+.text-container h1 {
+   font-family: Arial, sans-serif;
+   font-size: 2.5rem;
+   color: #1a3e8c;
+   margin: 0;
+}
+.text-container p {
+   font-family: Arial, sans-serif;
+   font-size: 1rem;
+   color: #1a3e8c;
+   margin: 0;
 }
 
 body {
